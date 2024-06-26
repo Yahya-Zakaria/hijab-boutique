@@ -1,0 +1,126 @@
+/* global style */
+input::placeholder {
+  font-size: 15px;
+}
+input:checked {
+  background-color: black !important;
+}
+
+.form-select {
+  color: #656464 !important;
+  font-size: 14px;
+  padding-left: 10px;
+}
+label {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 5px;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+input[type="radio"]:checked{
+accent-color: rgb(0, 0, 0);
+
+}
+
+
+/* start nav style */
+/* ################ */
+/* end nav style */
+
+/* start summart ordar style */
+.summary-ordar a {
+  font-size: 15px;
+  font-weight:400;
+}
+/* end summart ordar style */
+
+/* start email & contact style */
+
+input {
+  box-shadow: none !important;
+}
+.lable-float {
+  color: #656464;
+}
+
+.form-select.phone {
+  width: 20px;
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0;
+}
+.phone-inp {
+  width: calc(100% - 10px);
+}
+.shipping-title {
+  font-size: 17px;
+}
+.total-shipping{
+    background-color: #f0f0f0;
+    border: 1px solid ;
+}
+/* end contact style */
+
+/* start payment style  */
+.sub-title-pyment{
+    font-size: 15px;
+    color: #7e7e7e;
+}
+.cash-terms{
+    background-color: #f0f0f0;
+    font-size: 14px;
+    color: black;
+}
+/* end payment style  */
+
+/* start order summery style */
+.item-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}
+.item-sub-title{
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: #656464;
+    margin: 0 !important;
+    line-height: 1;
+    padding: 0 !important;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.order-data p{
+margin: 3px;
+}
+
+.total span{
+    font-size: 13px;
+}
+.taxes{
+    font-size: 14px;
+    font-weight: 500;
+}
+/* end order summery style */
+
+/* start footer style */
+footer a{
+    font-size: 14px;
+}
+/* end footer style */
+
+/* width: 0px; border-left: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; */
